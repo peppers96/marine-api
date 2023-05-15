@@ -98,6 +98,8 @@ public enum SentenceId {
     RSD,
     /** Route data and waypoint list */
     RTE,
+    /** Proprietary NMEA messages for SkyTraq positioning receivers. */
+    STI,
     /** Vessel heading in degrees true */
     THS,
     /** Target Label */
