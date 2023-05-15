@@ -186,6 +186,7 @@ the library. See wiki for
 |RSA    |Rudder angle in degrees
 |RSD    |Radar system data
 |RTE    |GPS route data with list of waypoints
+|THS    |SkyTraq True heading in degrees
 |TLB    |Target label
 |TTM    |Tracked target message
 |TXT    |Text message

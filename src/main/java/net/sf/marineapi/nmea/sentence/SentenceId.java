@@ -98,6 +98,8 @@ public enum SentenceId {
     RSD,
     /** Route data and waypoint list */
     RTE,
+    /** Vessel heading in degrees true */
+    THS,
     /** Target Label */
     TLB,
     /** Tracked target Longitude Latitude*/

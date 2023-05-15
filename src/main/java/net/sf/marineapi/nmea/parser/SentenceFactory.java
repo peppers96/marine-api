@@ -315,6 +315,7 @@ public class SentenceFactory {
 		registerParser(tempParsers, "RTE", RTEParser.class);
 		registerParser(tempParsers, "RSA", RSAParser.class);
 		registerParser(tempParsers, "RSD", RSDParser.class);
+		registerParser(tempParsers, "THS", THSParser.class);
 		registerParser(tempParsers, "TLB", TLBParser.class);
 		registerParser(tempParsers, "TLL", TLLParser.class);
 		registerParser(tempParsers, "TTM", TTMParser.class);
