@@ -50,6 +50,9 @@ class STIParser extends SentenceParser implements STISentence {
 	 */
 	public STIParser(TalkerId talker) {
 		super(talker, SentenceId.STI, 2);
+		if (getIntValue(1)!=36) {
+            throw new IllegalArgumentException("$PSTI NOT 36");
+        }
 	}
 
 	/*
